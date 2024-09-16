@@ -15,8 +15,10 @@ You first need to have a metamask or any digital wallet to connect to any any ne
   * Open UNIQUEOWNER.sol given in this repository.
   * Create a ownable contract (custom or through OpenZeppelin’s Ownable contract) .
   * compile the code.
-  * Select the Dev Hardhat provider from the environment in the deploy tab of the sidebar. It will automatically detect your local hardhat node running in your pc.
   * selct the network from the options i have used metamasks testnet network(sepolia testnet).
+  * You can also use this method :
+      *  Run the hardhat node locally using the npx hardhat node command( Select the Dev Hardhat provider from the environment in the deploy tab of the sidebar. It 
+         will  automatically detect your local hardhat node running in your pc.)
   * Now deploy the contract by passing required arguments like (Name ,Symbol, initial_amount).
   * Now you can verify or each transaction through the Etherscan.
 ## Features:
