@@ -12,7 +12,7 @@ You first need to have a metamask or any digital wallet to connect to any any ne
 
 ### Executing program
   * Open remix.ethereum.org (an online code editor for solidity by Ethereum)
-  * Open UNIQUEOWNER.sol given in this repository.
+  * Open UniqueOwner.sol given in this repository.
   * Create a ownable contract (custom or through OpenZeppelin’s Ownable contract) .
   * compile the code.
   * selct the network from the options i have used metamasks testnet network(sepolia testnet).
@@ -27,7 +27,7 @@ Minting token (Minting can be done by the owner only.)
 Burning token to reduce it's supply.
 Burning and transfer can be done by any user.
 ## Help
-1. To execute this program on testnet you need to have some balnce in your wallet . Like i have used sepolia so must have some ETH (for gas fees) to execute the program. you can get some test ethers throght this ( https://cloud.google.com/application/web3/faucet)
+1. To execute this program on testnet you need to have some balnce in your wallet . Like i have used sepolia so must have some ETH (for gas fees) to execute the program. you can get some test ethers throgh this link  ( https://cloud.google.com/application/web3/faucet)
 2. You need to chnage the account address to verify that only the owner can mint the tokens.
 ## Authors
 Name - Ashish Kumar Saurav
